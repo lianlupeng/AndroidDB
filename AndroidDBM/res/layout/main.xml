@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/name"
+    android:gravity="center"
+    android:textSize="18px"
+    />
+<RelativeLayout 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:id="@+id/information"
+	android:paddingTop="20px"
+>
+<!-- 第一部分 主机的信息-->
+<TextView 
+	android:id="@+id/iptext"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/ip"
+	android:textSize="16px"
+/>
+<EditText 
+	android:id="@+id/ipedit"
+	android:hint="主机ip"
+	android:layout_below="@+id/iptext"
+	android:layout_width="200px"
+	android:layout_height="wrap_content"
+	android:layout_alignLeft="@+id/iptext"
+/>
+<Button 
+	android:id="@+id/ipbutton"
+	android:text="测试网络"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_toRightOf="@+id/ipedit"
+	android:layout_below="@+id/iptext"
+/>
+<!-- 第二部分 用户的信息 -->
+<TextView 
+	android:id="@+id/userinfo"
+	android:text="@string/user"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_below="@+id/ipedit"
+	android:textSize="16px"
+/>
+<EditText 
+	android:id="@+id/username"
+	android:layout_width="200px"
+	android:layout_height="wrap_content"
+	android:hint="用户名"
+	android:layout_below="@+id/userinfo"
+	android:layout_alignLeft="@+id/userinfo"
+/>
+<EditText 
+	android:id="@+id/userpwd"
+	android:layout_width="200px"
+	android:layout_height="wrap_content"
+	android:layout_below="@+id/username"
+	android:hint="用户密码"
+	android:layout_marginTop="5px"
+/>
+<Button 
+	android:id="@+id/userbutton"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="验证用户"
+	android:layout_toRightOf="@+id/userpwd"
+	android:layout_below="@+id/username"
+	android:layout_marginTop="5px"
+/>
+<!-- 第三部分作者信息 
+<TextView 
+	android:id="@+id/author"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_below="@+id/userpwd"
+	android:textSize="16px"
+/>
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/author"
+    android:gravity="center"
+    android:textSize="12px"
+    />
+  -->
+</RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name">Android 数据库管理中间件</string>
+    <string name="app_name">AndroidDBM</string>
+    <string name="ip">主机信息：</string>
+    <string name="user">用户信息：</string>
+    <string name="author">name:lupeng email:lianlupeng@gmail.com</string>
+    <string name="error">用户名或密码不正确</string>
+</resources>

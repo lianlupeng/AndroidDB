@@ -1,0 +1,78 @@
+!SESSION 2012-02-21 15:23:58.812 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.6.0_31
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.android.ide.eclipse.ddms 4 0 2012-02-21 15:24:10.340
+!MESSAGE DDMS files not found: E:\eclipse\platform-tools\adb.exe E:\eclipse\tools\hprof-conv.exe E:\eclipse\tools\traceview.bat 
+
+!ENTRY org.eclipse.ui 4 4 2012-02-21 17:39:54.322
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2012-02-21 17:39:56.801 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.6.0_31
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-02-21 17:41:10.454
+!MESSAGE Failed to load properties file for project 'HelloAndroid'
+
+!ENTRY org.eclipse.core.jobs 4 2 2012-02-21 17:47:54.221
+!MESSAGE An internal error occurred during: "Launching New_configuration".
+!STACK 0
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:184)
+	at com.android.ide.eclipse.adt.internal.launch.LaunchConfigDelegate.getProject(LaunchConfigDelegate.java:367)
+	at com.android.ide.eclipse.adt.internal.launch.LaunchConfigDelegate.launch(LaunchConfigDelegate.java:116)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:928)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1132)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.ui 4 4 2012-02-21 17:48:00.106
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2012-02-22 11:34:28.814 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.6.0_31
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-02-22 11:47:44.890
+!MESSAGE 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/AndroidDBM/res' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:320)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:194)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:266)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:249)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk$6.run(Sdk.java:1196)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2012-02-22 11:47:44.890
+!MESSAGE Resource '/AndroidDBM/res' does not exist.
+
+!ENTRY org.eclipse.ui 4 4 2012-02-22 11:48:54.419
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2012-02-22 13:22:57.455 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.6.0_31
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2012-02-22 15:54:26.547
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2012-02-28 15:12:06.891 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.6.0_31
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2012-02-28 15:12:37.525
+!MESSAGE Invalid preference page path: XML Syntax
