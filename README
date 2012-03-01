@@ -1,1 +1,10 @@
-# it is just a test !
+#infomation about myself 
+name:newbie
+email:lianlupeng@gmail.com
+#这个项目的介绍
+这个项目是基于android客户端的一个远程操控数据数的软件，实现对远程数据库的增删改查。
+
+测试数据库使用mysql，想办法以后要融合mongodb
+使用的协议是AMQP，利用已经实现该协议的一个开源项目RabbitMQ来进行项目的开发
+具体参考：www.rabbitmq.com
+
